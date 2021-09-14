@@ -21,8 +21,8 @@ const Todo = () => {
         </Row>
         <Row>
           <Col className="d-flex justify-content-center">
-            <Button variant="primary" className="mr-2">Inserir</Button>
-            <Button variant="light">Limpar</Button>
+            <Button variant="primary" className="mr-2 mt-2">Inserir</Button>
+            <Button variant="light" className="mt-2">Limpar</Button>
           </Col>
         </Row>
       </Container>

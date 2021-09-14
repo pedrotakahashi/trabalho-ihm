@@ -1,4 +1,5 @@
 import React from "react";
+import MenuBottomSide from "../MenuBottomSide/MenuBottomSide";
 import { Menutopside } from "../Navbar/Menutopside";
 
 interface IProps {
@@ -12,6 +13,7 @@ const PanelLayout = (props: IProps): JSX.Element => {
     <main className="main-panel">
       <Menutopside />
       <section className="main-panel-content">{children}</section>
+      <MenuBottomSide />
     </main>
   );
 };
