@@ -1,5 +1,5 @@
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import PanelLayout from "../PanelLayout";
+import PanelLayout from "../components/PanelLayout";
 
 const Todo = () => {
   return (

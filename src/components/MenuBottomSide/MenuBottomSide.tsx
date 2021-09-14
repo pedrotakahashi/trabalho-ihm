@@ -4,8 +4,9 @@ import { IoIosTimer } from "react-icons/io";
 import { RiTodoFill } from "react-icons/ri";
 import { FaHome } from "react-icons/fa";
 const MenuBottomSide = () => {
+ 
   return (
-    <Navbar bg="dark" variant="dark" fixed="bottom">
+    <Navbar bg="dark" variant="dark" fixed="bottom" className="navBarbottom">
       <Container>
         <Nav className="nav-bottom-container">
           <Nav.Link href="/">
