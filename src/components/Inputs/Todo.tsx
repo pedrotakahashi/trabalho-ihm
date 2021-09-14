@@ -5,7 +5,7 @@ const Todo = () => {
   return (
     <PanelLayout>
       <Container className="container-inputs">
-        <Row className="justify-content-sm-center justify-content-md-center">
+        <Row>
           <Col>
             <Form>
               <Form.Group className="mb-3">
@@ -21,7 +21,7 @@ const Todo = () => {
         </Row>
         <Row>
           <Col className="d-flex justify-content-center">
-            <Button variant="primary">Inserir</Button>
+            <Button variant="primary" className="mr-2">Inserir</Button>
             <Button variant="light">Limpar</Button>
           </Col>
         </Row>
