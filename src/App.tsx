@@ -1,15 +1,16 @@
-import Todo from "./components/Inputs/Todo";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Menutopside } from "./components/Navbar/Menutopside";
-import './assets/styles/app.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/styles/app.css";
+import { Routes } from "./Routes";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
-return(
-  <div className="app-main">
-    <Menutopside />
-    <Todo />
-  </div>
-);
-}
+  return (
+    <div className="app-main">
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </div>
+  );
+};
 
 export default App;
