@@ -1,0 +1,13 @@
+.nav-bottom-container{
+margin-left: 40px;
+}
+
+.nav-bottom-icon{
+margin-right: 20px;
+}
+
+@media (min-width: 600px) {
+  .navBarbottom{
+    display: none;
+  }
+}
